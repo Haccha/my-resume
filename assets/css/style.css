@@ -1,13 +1,8 @@
 
-ul { margin: 0; padding: 0; } */annule les marges par defaut */
-p{
-	font-size: medium;
-	font-family: arial;
-   //margin: 10px 0px 10px 20px;
-}
+ul { margin: 0; padding: 0; } /* annule les marges par defaut */
 
 .block-info1{
-
+	font-family:sans-serif;
 	width: 350px;
 	height:180px;
 	//border: 1px solid black;
@@ -18,6 +13,7 @@ p{
 	text-align: justify;
 }
 .block-info2{
+	font-family:sans-serif;
 	width: 250px;
 	//height:30px;
 	//border: 1px solid orange;
@@ -31,6 +27,7 @@ p{
 	color: white;
 }
 .block-info3{
+	font-family:sans-serif;
 	width: 250px;
 	//height: 30px;
 	//border: 1px solid green;
@@ -63,13 +60,15 @@ em {
 .titre-rubrique {
 	font-size: 30px;
 	color: orange;
-	text-decoration:underline;
+	//text-decoration:underline;
+	border-bottom:2px solid orange;
 	//margin: auto;
 	margin-left: 50px;
-	padding-top: 50px
+	margin-right: 50px;
+	padding-top: 50px;
 }
 header {
-	margin:  auto ;
+	margin: auto ;
 	border: 2px solid grey;
 	width: 100%;
 	background: gray;
@@ -78,32 +77,151 @@ header {
 	//margin: 70px;  /* marge exterieur */
 }
 
-.experience {
-
-	width: 25%;
+.ensemble {
+ vertical-align:top;
+ //display:inline-block;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-top: 40px;
+ border: 2px solid grey;
+}
+.experience1 {
+	width: 35%;
 	display: inline-block;
-	vertical-align: top;
-	//margin: auto;	 /* marge exterieur */
+	vertical-align:top;
+	margin-top: 20px;
+	//margin: auto;	 /* marge exterieur*/
 	margin-left: 50px;
-	padding : 28px	;
+	padding : 15px;
+	border: 1px solid grey;
 }
-
-.detail {
-
-	width: 60%;
+.detail1 {
+	vertical-align:top;
+	width: 40%;
 	display: inline-block;
-	margin-left: 80px;
-	margin-top: 30px;
-
+	margin-left:80px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding : 15px;
+	border: 1px solid grey;
 }
-.cadre {
-	border: 3px solid grey;
-	margin: auto;
-	}
-	.detail1 {
+.experience2 {
+	width: 35%;
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 20px;
+	//margin: auto;	 /* marge exterieur*/
+	margin-left: 50px;
+	padding : 10px;
+	border: 1px solid grey;
+}
+.detail2 {
+	vertical-align:top;
+	width: 40%;
+	display: inline-block;
+	margin-left:80px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding : 15px;
+	border: 1px solid grey;
+}
+	.experience3 {
+		width: 35%;
 		display: inline-block;
-		vertical-align: top;
-		margin-left: 70px;
-		width: 900px;
-		margin-top: 30px;
+		vertical-align:top;
+		margin-top: 20px;
+		//margin: auto;	 /* marge exterieur*/
+		margin-left: 50px;
+		padding : 15px;
+		border: 1px solid grey;
 		}
+
+		.detail3 {
+			vertical-align:top;
+			width: 40%;
+			display: inline-block;
+			margin-left:80px;
+			margin-top: 20px;
+			margin-bottom: 30px;
+			padding : 15px;
+			border: 1px solid grey;
+		}
+
+		.experience4 {
+			width: 35%;
+			display: inline-block;
+			vertical-align:top;
+			margin-top: 20px;
+			//margin: auto;	 /* marge exterieur*/
+			margin-left: 50px;
+			padding : 15px;
+			border: 1px solid grey;
+			}
+
+			.detail4 {
+				vertical-align:top;
+				width: 45%;
+				display: inline-block;
+				margin-left:80px;
+				margin-top: 20px;
+				margin-bottom: 30px;
+				padding : 15px;
+				border: 1px solid grey;
+			}
+
+				.periode {
+					vertical-align:top;
+					width: 35%;
+					display: inline-block;
+					margin-left:50px;
+					margin-top: 20px;
+					margin-bottom: 30px;
+					padding : 15px;
+					border: 1px solid grey;
+				}
+				.formation {
+					width: 35%;
+					display: inline-block;
+					vertical-align:top;
+					margin-top: 20px;
+					//margin: auto;	 /* marge exterieur*/
+					margin-left: 50px;
+					padding : 10px;
+					border: 1px solid grey;
+					}
+				.detail12 {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 70px;
+					width: 900px;
+					margin-top: 30px;
+						}
+
+						.langues {
+						width: 35%;
+						display: inline-block;
+						vertical-align:top;
+						margin-top: 20px;
+						//margin: auto;	 /* marge exterieur*/
+						margin-left: 50px;
+						padding : 15px;
+						border: 1px solid grey;
+						}
+
+
+					.hobby {
+					width: 35%;
+					display: inline-block;
+					vertical-align:top;
+					margin-top: 20px;
+					//margin: auto;	 /* marge exterieur*/
+					margin-left: 50px;
+					padding : 15px;
+					border: 1px solid grey;
+					}
+					.cadre {
+					font-size: medium;
+					font-family:sans-serif;
+					border: 3px solid grey;
+					margin: auto;
+					}
