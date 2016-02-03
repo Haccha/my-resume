@@ -2,18 +2,18 @@
 ul { margin: 0; padding: 0; } /* annule les marges par defaut */
 
 .block-info1{
-	font-family:sans-serif;
+	font-family:serif;
 	width: 350px;
 	height:180px;
 	//border: 1px solid black;
 	//padding: 15; /* Marge intérieure */
-	margin: 10px;
+	margin-top: 10;
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
 }
 .block-info2{
-	font-family:sans-serif;
+	font-family:serif;
 	width: 250px;
 	//height:30px;
 	//border: 1px solid orange;
@@ -27,7 +27,7 @@ ul { margin: 0; padding: 0; } /* annule les marges par defaut */
 	color: white;
 }
 .block-info3{
-	font-family:sans-serif;
+	font-family:serif;
 	width: 250px;
 	//height: 30px;
 	//border: 1px solid green;
@@ -59,6 +59,7 @@ em {
 }
 .titre-rubrique {
 	font-size: 30px;
+	font-family:fantasy;
 	color: orange;
 	//text-decoration:underline;
 	border-bottom:2px solid orange;
@@ -221,7 +222,7 @@ header {
 					}
 					.cadre {
 					font-size: medium;
-					font-family:sans-serif;
+					font-family:inherit;
 					border: 3px solid grey;
 					margin: auto;
 					}
