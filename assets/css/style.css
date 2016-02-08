@@ -137,16 +137,16 @@ header {
 		border: 1px solid grey;
 		}
 
-		.detail3 {
-			vertical-align:top;
-			width: 40%;
-			display: inline-block;
-			margin-left:80px;
-			margin-top: 20px;
-			margin-bottom: 30px;
-			padding : 15px;
-			border: 1px solid grey;
-		}
+	.detail3 {
+		vertical-align:top;
+		width: 40%;
+		display: inline-block;
+		margin-left:80px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+		padding : 15px;
+		border: 1px solid grey;
+	}
 
 		.experience4 {
 			width: 35%;
@@ -223,6 +223,6 @@ header {
 					.cadre {
 					font-size: medium;
 					font-family:inherit;
-					border: 3px solid grey;
+					border: 3px solid red;
 					margin: auto;
 					}
