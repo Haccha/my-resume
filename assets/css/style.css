@@ -22,10 +22,9 @@ ul { margin: 0; padding: 0; } /* annule les marges par defaut */
 	text-align: justify;
 	font-size: 20px;
 	color: white;
-	border 3px;
 	float: left;
 	margin-left: 210px;
-	margin-top: auto;
+	margin-top: 30px;
 }
 .block-info3{
 	font-family:Rokkitt;
@@ -34,7 +33,7 @@ ul { margin: 0; padding: 0; } /* annule les marges par defaut */
 	color: white;
 	float: right;
 	margin-right: 350px;
-	margin-top: auto;
+	margin-top: 60px;
 
 }
 a:hover { /* Quand on pointe sur un paragraphe */
